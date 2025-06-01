@@ -33,31 +33,31 @@ Generate Samples are under the directory:
 ```
 
 ### 4. **Output Parsing**
-- All LLM output is enclosed in triple backticks (\`\`\`) for safe extraction.
-- A regular expression extracts only the clean content inside backticks.
-- Ensures valid, minimal output for clinical systems or downstream models.
+ All LLM output is enclosed in triple backticks (\`\`\`) for safe extraction.
+ A regular expression extracts only the clean content inside backticks.
+ Ensures valid, minimal output for clinical systems or downstream models.
 
----
+
 
 ## Design Decisions
 
 ### What LLMs Should Do
-- Clean noisy transcript into structured utterances.
-- Extract clinician/patient names and dates.
-- Generate well-formed SOAP paragraphs using retrieved context only.
+ Clean noisy transcript into structured utterances.
+ Extract clinician/patient names and dates.
+ Generate wellformed SOAP paragraphs using retrieved context only.
 
 ### What LLMs Should NOT Do
-- Guess missing information.
-- Reorganize transcripts without grounding.
-- Generate SOAP notes from the full transcript without retrieval (too error-prone).
+ Guess missing information.
+ Reorganize transcripts without grounding.
+ Generate SOAP notes from the full transcript without retrieval (too errorprone).
 
 ### Prompt Engineering
 We enforce the following in all prompts:
-- Role definition: LLM as a "medical scribe" or "extractor".
-- Constraints: "Only use retrieved content", "Do not hallucinate", "Enclose in triple backticks".
-- Subject-specific templates format for each SOAP section and for metadata extraction individually to reduce the error.
+ Role definition: LLM as a "medical scribe" or "extractor".
+ Constraints: "Only use retrieved content", "Do not hallucinate", "Enclose in triple backticks".
+ Subjectspecific templates format for each SOAP section and for metadata extraction individually to reduce the error.
 
----
+
 
 ## Installation
 Clone:
@@ -88,7 +88,7 @@ $ python main.py
 If a transcript includes more than one patient, you’ll need to manually split it into separate files first.
 
 2. The system could be faster.
-Some parts especially for cleaning the transcript and finding relevant chunks — are slow. This is because LLMs take time to run. Speed could be improved using smarter reuse or caching.
+Some parts especially for cleaning the transcript and finding relevant chunks are slow. This is because LLMs take time to run. Speed could be improved using smarter reuse or caching.
 
 3. How the text is split affects retrieval quality.
 If chunks are too short or too long, or overlap too much, the system might miss important details or return repeated content, which can hurt the final SOAP note.
