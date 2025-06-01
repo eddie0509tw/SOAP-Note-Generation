@@ -75,13 +75,20 @@ $ bash run_docker.sh
 ```
 ---
 
+## Run
+Before running the code, please specified the directories inside ```config.yaml``` for the data source, saving directory for index and generated notes and openai api key. 
+To run the code:
+```
+$ python main.py
+```
+
 ## Known Limitations
 
 1. Multiple patients in one transcript aren't handled automatically.
 If a transcript includes more than one patient, you’ll need to manually split it into separate files first.
 
 2. The system could be faster.
-Some parts — especially cleaning the transcript and finding relevant chunks — are slow. This is because LLMs take time to run. Speed could be improved using smarter reuse or caching.
+Some parts especially for cleaning the transcript and finding relevant chunks — are slow. This is because LLMs take time to run. Speed could be improved using smarter reuse or caching.
 
 3. How the text is split affects retrieval quality.
 If chunks are too short or too long, or overlap too much, the system might miss important details or return repeated content, which can hurt the final SOAP note.
