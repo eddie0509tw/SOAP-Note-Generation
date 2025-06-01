@@ -1,0 +1,15 @@
+
+Clinician:
+Dr. Gill
+Patient:
+N/A
+Date:
+N/A
+Subjective:
+The patient does not report any problems or concerns with their cranial nerves or hearing. There is no mention of any symptoms or relevant medical history related to these areas. The patient complies with the examination procedures and does not express any discomfort or issues during the tests conducted by Dr. Gill.
+Objective:
+The objective examination was conducted by Dr. Gill, focusing on the patient's cranial nerves. The examination revealed no abnormalities, and the patient was given a clean bill of health regarding cranial nerve function. During the assessment, a tuning fork test was performed. The tuning fork was struck and placed on the patient's forehead, and the patient was asked to identify the location of the sound as left, right, or middle. The patient complied with the instructions, indicating the ability to hear and localize the sound appropriately.
+Assessment:
+The patient underwent a cranial nerve examination conducted by Dr. Gill, who reported no issues with the cranial nerves, indicating a clean bill of health in that area. The patient's blind spot aligned well with the examiner's, suggesting normal visual function. Sensation on the face was tested using a blunt point, and the patient complied with the examination procedures. The patient did not report any hearing problems, and a Snellen chart was used to assess visual acuity. Overall, the assessment indicates normal cranial nerve function, normal facial sensation, and no reported hearing issues, with visual acuity being evaluated as part of the examination.
+Plan:
+Plan: The patient has been given a clean bill of health regarding their cranial nerves, indicating no issues were found during the examination. No further treatment or tests are recommended at this time. The patient is encouraged to ask any questions they may have. There is no mention of any changes to prescriptions, and no follow-up appointments are necessary unless the patient experiences any new symptoms or concerns.

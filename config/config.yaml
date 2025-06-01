@@ -1,11 +1,11 @@
 data_dir: "transcripts" # Directory containing the transcript files
 index_dir : "index" # Directory to store the index files
 save_dir: "soap_notes" # Directory to save the generated SOAP notes
-transcipt_name: "encounter_3" # Name of the transcript file without extension
+transcript_name: "encounter_10" # Name of the transcript file without extension
 openai_api_key: ???
 langsmith_api_key: ???
 model: "gpt-4o"
 embedding_model_name: "text-embedding-3-small" # For text embeddings
-temperature: 0.7
+temperature: 0.0
 rebuild_index: False # Set to True to rebuild the index
 vis_json: True # Whether to save the json files for debugging

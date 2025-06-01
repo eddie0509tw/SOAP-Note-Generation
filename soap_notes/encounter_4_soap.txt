@@ -1,0 +1,15 @@
+
+Clinician:
+doctor weber
+Patient:
+N/A
+Date:
+Monday this week,Monday
+Subjective:
+The patient reports experiencing tummy pain that started a few months ago. They express concern about the possibility of having pancreatic cancer, as indicated by recent scan results. The patient is worried about the implications of the findings on the CT scan, which showed something potentially concerning on the pancreas gland. They inquire about the nature of the pancreas, the possibility of cancer, and whether surgical removal is an option if cancer is confirmed. The patient is seeking clarity on the situation and is anxious about the next steps and potential outcomes.
+Objective:
+The objective findings include the results from a CT scan, which is a detailed imaging study that has identified a suspicious area on the patient's pancreas gland. This finding follows an initial ultrasound scan that also indicated an abnormality, prompting further investigation. The CT scan provides more detailed information, confirming the presence of a potentially concerning lesion on the pancreas. There is no mention of any physical examination findings or other measurable data in the provided context.
+Assessment:
+The patient presented with symptoms that prompted an initial ultrasound scan, which revealed a suspicious area on the pancreas gland. A subsequent CT scan, which provides more detailed imaging, confirmed the presence of an abnormality on the pancreas. The clinician expressed concern that this finding could potentially indicate pancreatic cancer, although a definitive diagnosis has not yet been made. The patient has been informed about the possibility of cancer and has been provided with information on pancreatic cancer for further understanding. The clinician has recommended consulting a specialist to determine the nature of the abnormality and to discuss potential treatment options. The patient is understandably anxious about the findings and the implications, and further diagnostic steps are being expedited to provide clarity and guide management.
+Plan:
+Plan: The plan involves consulting a specialist to review the CT scan results and provide further insights into the findings on the pancreas gland. The clinician has printed information about pancreatic cancer for the patient to review, suggesting that this is a potential concern. The patient will be informed about the different types of treatment options available, depending on the specialist's assessment. The clinician emphasizes the need to act quickly to obtain answers and determine the appropriate course of action. Follow-up appointments will be scheduled as needed based on the specialist's recommendations and any additional tests that may be required to further investigate the suspicious findings on the pancreas.

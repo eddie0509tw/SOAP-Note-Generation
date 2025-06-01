@@ -6,7 +6,7 @@ from prompts import PROCESS_TEXT_SYS_PROMPT
 from openai import OpenAI
 
 
-os.environ['OPENAI_API_KEY'] = read_file("openai_key.txt").strip()
+# os.environ['OPENAI_API_KEY'] = read_file("openai_key.txt").strip()
 
 
 def clean_with_llm(raw_transcript: str, model: str = "gpt-4o", temperature: float = 0.0) -> Dict[str, Any]:
@@ -18,7 +18,7 @@ def clean_with_llm(raw_transcript: str, model: str = "gpt-4o", temperature: floa
 
     # Build the conversation
     messages = [
-        {"role": "PROCESS_TEXT_SYS_PROMPT", "content": PROCESS_TEXT_SYS_PROMPT},
+        {"role": "system", "content": PROCESS_TEXT_SYS_PROMPT},
         {"role": "user", "content": raw_transcript}
     ]
 

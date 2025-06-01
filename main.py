@@ -14,7 +14,8 @@ def main(cfg: OrderedDict):
     os.makedirs(save_dir, exist_ok=True)
     os.makedirs(index_dir, exist_ok=True)
 
-    transcipt_name = "encounter_3"
+    transcipt_name = cfg.get('transcript_name', None)
+    assert transcipt_name is not None, "transcript_name must be provided in the config."
     input_path = os.path.join(data_dir, transcipt_name + ".txt")
     output_path = os.path.join(save_dir, transcipt_name + "_soap.txt")
 
@@ -31,13 +32,14 @@ def main(cfg: OrderedDict):
                     model=cfg.get('model_name', 'gpt-4o'), 
                     temperature=cfg.get('temperature', 0.0)
                 )
+    print(f"Transcript cleaned and parsed into {len(transcipts_json['utterances'])} utterances.")
     # visualize the utterances from the cleaned transcript
     if cfg.get("vis_json", True):
         os.makedirs("transcripts_json", exist_ok=True)
         output_json_path = os.path.join("transcripts_json", transcipt_name + "_utterances.json")
         with open(output_json_path, "w", encoding="utf-8") as f:
             json.dump(transcipts_json, f, ensure_ascii=False, indent=2)
-
+    print(f"Transcript JSON saved to: {output_json_path}")
     sg = SOAPGenerator(
         indexer=indexer,
         transcript=transcipts_json['utterances'],

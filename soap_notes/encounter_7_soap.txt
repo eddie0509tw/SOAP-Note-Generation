@@ -1,0 +1,21 @@
+
+Clinician:
+N/A
+Patient:
+N/A
+Date:
+N/A
+Subjective:
+The patient reports a history of facial asymmetry, which has been present since a previous injury and concussion. They mention that the opening of one eye is slightly down compared to the other due to the injury. The patient recalls redness associated with the last concussion. They do not report any current issues with hearing, although there was a mention of wax buildup. The patient does not express any new concerns or symptoms and notes that everything else appears to be as it was before, with no noticeable problems. The patient acknowledges a past cut from a second incident but does not indicate any ongoing issues related to it.
+Objective:
+The objective findings from the cranial nerve examination include the following observations: The patient is instructed to point to fingers that wiggle while maintaining focus on the examiner's nose, indicating intact visual tracking and attention. The examiner notes a slight asymmetry in the opening of the patient's eyes, with one eye appearing slightly down due to a previous injury, though this is not noticeable to others and is considered a cosmetic issue. Hearing is assessed by making soft noises next to the patient's ears, with the patient identifying the direction of the sound, suggesting normal auditory function. The examiner strokes the patient's palm and taps their jaw, observing normal responses. The patient is able to wrinkle their forehead and show their teeth, indicating normal facial nerve function. Vibration sense is tested on the ankle, and the patient reports feeling the vibration, indicating intact sensory function. Coordination is assessed by having the patient touch the examiner's finger and then their nose, with minimal issues noted, suggesting no significant neurological deficits. Temperature sensation is tested on various parts of the body, with the patient reporting similar sensations bilaterally. The patient is instructed to stare at a picture while the examiner taps their forehead, with no abnormal blinking observed, indicating normal reflexes.
+Assessment:
+The patient underwent a cranial nerve examination focusing on reflexes, strength, and coordination. Subjectively, the patient did not report any new issues with hearing, although there was a mention of a previous concussion and associated redness. Objectively, the examination revealed a slight lid lag on the left eye, likely residual from past injury, but no other significant abnormalities were noted. The patient demonstrated normal responses to visual and auditory stimuli, and there were no issues with pinprick sensation or vibration sense. The clinician's assessment is that the patient exhibits a minor lid lag on the left eye, which is consistent with previous injury history, but otherwise presents with normal cranial nerve function and no new neurological deficits.
+Plan:
+Subjective: The patient reports no new issues or concerns since the last visit. There is a history of a concussion with some residual effects noted, particularly in the facial area. The patient does not report any hearing problems, although there was a mention of wax buildup in the past.
+
+Objective: During the cranial nerve examination, the clinician observed that the patient's facial features, particularly the eyes, show some asymmetry likely due to past injury. The patient was able to follow instructions for various tests, including visual fixation, auditory response, and coordination tasks. The clinician noted that the patient's reflexes and coordination appeared normal, and there were no new findings of concern.
+
+Assessment: The patient continues to show some residual effects from a previous concussion, particularly in the facial area, but overall neurological function appears stable. There are no new symptoms or significant changes since the last examination.
+
+Plan: The clinician recommends continuing to monitor the patient's condition with regular follow-up appointments to assess any changes in neurological function. No further tests are deemed necessary at this time, as previous examinations have been normal. The patient is advised to report any new symptoms or changes in their condition. The clinician will continue to provide supportive care and address any concerns as they arise.

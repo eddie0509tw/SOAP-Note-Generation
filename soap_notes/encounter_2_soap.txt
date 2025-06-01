@@ -1,0 +1,15 @@
+
+Clinician:
+N/A
+Patient:
+N/A
+Date:
+N/A
+Subjective:
+The patient reports experiencing headaches for approximately two weeks. They describe the headaches as coming and going without any identifiable triggers. The patient expresses concern about these recurring headaches, which prompted the visit today. Overall, the patient states they are doing okay but are seeking further evaluation of their symptoms.
+Objective:
+The patient presents with complaints of headaches that have been occurring intermittently for approximately two weeks. There are no specific triggers identified by the patient. No additional observable signs or measurable data are provided in the context.
+Assessment:
+The patient presents with a two-week history of headaches that appear to be intermittent and without any identifiable triggers. The subjective information suggests that the headaches are not associated with any specific events or activities. Based on the duration and nature of the symptoms, the headaches may be classified as tension-type headaches, but further evaluation is necessary to rule out other potential causes such as migraines or secondary headaches due to underlying conditions. Additional diagnostic information and a more detailed history are required for a definitive diagnosis.
+Plan:
+The plan for the patient experiencing headaches for about two weeks includes recommending over-the-counter pain relief medication such as ibuprofen or acetaminophen to manage the symptoms. The clinician suggests keeping a headache diary to track the frequency, duration, and potential triggers of the headaches. If the headaches persist or worsen, the patient should schedule a follow-up appointment for further evaluation. Additionally, the clinician advises the patient to stay hydrated, maintain a regular sleep schedule, and avoid known headache triggers if identified. If necessary, further diagnostic tests may be considered to rule out underlying conditions.

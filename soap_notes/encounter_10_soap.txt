@@ -1,0 +1,21 @@
+
+Clinician:
+N/A
+Patient:
+Carter,Reagan,Bush
+Date:
+October 21st,November 21st
+Subjective:
+The patient did not express any specific symptoms or concerns during the mental status screening. They demonstrated orientation to geography, memory, recall of past and current events, and language. The patient mentioned playing golf in the last couple of days and noted awareness of the presidential hearings as a current event. They did not report any issues with focus, attention span, or other cognitive functions during the session. Overall, the patient did not indicate any worries or problems with their mental status at this time.
+Objective:
+The patient demonstrated orientation to geography and memory, both verbal and visual, as well as recall of past and current events. Language skills were also observed. During the session, the patient was able to recall three items in the room: a TV monitor, a stopwatch, and a book. The patient successfully mimed the action of combing hair and wrote a simple sentence when prompted. Additionally, the patient attempted a 3D drawing of a cube. These observations suggest intact cognitive function with no immediate concerns noted by the clinician.
+Assessment:
+The patient demonstrates adequate cognitive functioning during the mental status screening, showing orientation to geography, memory, language, and recall of past and current events. The patient successfully performed tasks involving memory recall, object identification, and simple writing, indicating intact cognitive abilities. The clinician notes that there is no cause for concern based on the observations made during the session. The patient is able to follow instructions, recall items, and demonstrate basic spatial awareness and drawing skills. Overall, the assessment suggests that the patient's cognitive status is within normal limits, with no immediate need for further in-depth evaluation at this time.
+Plan:
+Subjective: The patient participated in a mental status screening, demonstrating orientation to geography, memory, recall of past and current events, and language. The patient reported recent activities, including playing golf and awareness of current events such as presidential hearings.
+
+Objective: During the session, the patient successfully completed tasks involving memory recall, such as remembering items in the room and words. The patient also demonstrated the ability to perform a simple task like miming combing hair and writing a sentence. The patient accurately identified locations on a map and answered questions about the current day of the week.
+
+Assessment: Based on the observations and interactions during the screening, the clinician noted that there is no immediate cause for concern regarding the patient's cognitive function. The patient showed adequate memory, orientation, and language skills.
+
+Plan: No further immediate action is required as the patient displayed satisfactory cognitive abilities during the screening. The clinician did not recommend additional tests or follow-up appointments at this time, but suggested that focus, attention span, and math skills could be explored in more depth if needed in the future.
