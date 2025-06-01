@@ -64,33 +64,3 @@ def process_and_save(input_txt_path: str, output_json_path: str) -> None:
         json.dump(result_json, f, ensure_ascii=False, indent=2)
 
     print(f"Structured utterances written to: {output_json_path}")
-
-
-def main():
-    """
-    Main entrypoint: For each 'encounter_<N>.txt' in /mnt/data, produce
-    'encounter_<N>_utterances.json' containing the cleaned utterance list.
-    """
-    data_dir = "/workspace/transcripts"
-    save_dir = "/workspace/transcripts_json"
-    # for fname in os.listdir(data_dir):
-    #     if not fname.startswith("encounter_") or not fname.endswith(".txt"):
-    #         continue
-
-    #     input_path = os.path.join(data_dir, fname)
-    #     base, _ = os.path.splitext(fname)
-    #     output_fname = f"{base}_utterances.json"
-    #     output_path = os.path.join(save_dir, output_fname)
-    #     os.makedirs(save_dir, exist_ok=True)
-    #     try:
-    #         process_and_save(input_path, output_path)
-    #     except Exception as e:
-    #         print(f"Error processing {fname}: {e}")
-    process_and_save(
-        input_txt_path=os.path.join(data_dir, "encounter_1.txt"),
-        output_json_path=os.path.join(save_dir, "encounter_1_utterances.json")
-    )
-
-
-if __name__ == "__main__":
-    main()

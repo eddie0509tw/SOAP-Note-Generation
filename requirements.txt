@@ -2,7 +2,6 @@ langchain
 langchainhub
 langchain_community
 openai
-faiss-cpu
 python-dotenv
 tiktoken
 chromadb

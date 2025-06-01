@@ -1,5 +1,3 @@
-# rag_pipeline.py
-
 import os
 import shutil
 from typing import List, Optional, Tuple
