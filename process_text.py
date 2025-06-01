@@ -16,7 +16,6 @@ def clean_with_llm(raw_transcript: str, model: str = "gpt-4o", temperature: floa
     """
     client = OpenAI()
 
-    # Build the conversation
     messages = [
         {"role": "system", "content": PROCESS_TEXT_SYS_PROMPT},
         {"role": "user", "content": raw_transcript}
@@ -52,14 +51,11 @@ def process_and_save(input_txt_path: str, output_json_path: str) -> None:
     with open(input_txt_path, "r", encoding="utf-8") as f:
         raw_text = f.read()
 
-    # Call the LLM to produce a JSON object with "utterances":[ ... ]
     result_json = clean_with_llm(raw_text)
 
-    # Validate the structure a bit
     if "utterances" not in result_json or not isinstance(result_json["utterances"], list):
         raise ValueError("LLM did not return an object with key 'utterances' as a list.")
 
-    # Save to disk
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(result_json, f, ensure_ascii=False, indent=2)
 
