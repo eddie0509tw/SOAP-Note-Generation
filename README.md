@@ -67,7 +67,7 @@ $ git clone https://github.com/eddie0509tw/SOAP-Note-Generation.git
 Docker:
 Go to the work directory and run:
 ```
-$ docker build -t cofactor .
+$ docker build -t soap_gen .
 ```
 After building the image, please run the scripts to launch the container:
 ```

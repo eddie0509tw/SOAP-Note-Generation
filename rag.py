@@ -33,14 +33,6 @@ class TranscriptIndexer:
         self.index_path = index_path
         self.collection_name = collection_name
         self.retriever = None
-
-    def save_index(self) -> None:
-        """
-        Persists the current Chroma collection to disk (if using a persist directory).
-        """
-        if self.retriever is not None:
-            # The retriever wraps a vectorstore, so we grab its underlying vectorstore
-            self.retriever.vectorstore.persist()
             
     def load_json(
         self,
@@ -165,6 +157,7 @@ class TranscriptIndexer:
 
 
 class SOAPGenerator:
+
     def __init__(
         self,
         indexer: TranscriptIndexer,
