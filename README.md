@@ -10,12 +10,13 @@
 - Indexed in [Chroma](https://www.trychroma.com/) with metadata: `speaker`, `encounter_id`, `turn_index`.
 - Supports filtered retrieval (e.g., `"speaker": "Patient"` for Subjective section).
 
-### 3. **RAG pipeline + LLM tools for soap generation
+### 3. **RAG pipeline + LLM tools for soap generation**
 Each of the 4 sections is handled by:
 - A **query prompt** (Q) used to retrieve relevant chunks.
 - A **write prompt** (W) that uses the retrieved context to generate the section.
 
 Chains use the following flow:
+```
 [Query String]
 |
 [Retriever]
@@ -25,7 +26,7 @@ Chains use the following flow:
 [PromptTemplate + LLM + OutputParser]
 |
 [SOAP paragraph] (markdown-style triple-backtick block)
-
+```
 
 ### 4. **Output Parsing**
 - All LLM output is enclosed in triple backticks (\`\`\`) for safe extraction.
@@ -50,13 +51,24 @@ Chains use the following flow:
 We enforce the following in all prompts:
 - Role definition: LLM as a "medical scribe" or "extractor".
 - Constraints: "Only use retrieved content", "Do not hallucinate", "Enclose in triple backticks".
-- Subject-specific templates for each SOAP section and for metadata extraction.
+- Subject-specific templates format for each SOAP section and for metadata extraction individually to reduce the error.
 
 ---
 
 ## Installation
-TODO
-
+Clone:
+```
+$ git clone https://github.com/eddie0509tw/SOAP-Note-Generation.git
+```
+Docker:
+Go to the work directory and run:
+```
+$ docker build -t cofactor .
+```
+After building the image, please run the scripts to launch the container:
+```
+$ bash run_docker.sh
+```
 ---
 
 ## Known Limitations
