@@ -25,7 +25,11 @@ Chains use the following flow:
 |
 [PromptTemplate + LLM + OutputParser]
 |
-[SOAP paragraph] (markdown-style triple-backtick block)
+[SOAP paragraph]
+```
+Generate Samples are under the directory:
+```
+/soap_notes
 ```
 
 ### 4. **Output Parsing**
@@ -85,7 +89,7 @@ If chunks are too short or too long, or overlap too much, the system might miss 
 4. The model may still make mistakes.
 While we reduce errors by giving the model only relevant info, the final answer still depends on how well the LLM follows instructions. GPT-4 or GPT-4o works best.
 
-5. Wrong labeling and errors can hurt.
+5. Wrong labeling and errors can hurt as can be found from generated sample under /soap_note that the Name, Date are often confused.
 If the speaker labels (Clinician or Patient) are wrong, the system might pull the wrong information for the wrong SOAP section.
 
 ---
